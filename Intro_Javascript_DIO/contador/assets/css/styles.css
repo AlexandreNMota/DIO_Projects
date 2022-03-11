@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+.area-principal{   
+    
+    display: flex;    
+    text-align: center;
+}
+
+.area-principal .container{
+    width: 100%;
+}
+
+.area-principal .container .titulo-contador{
+    margin: 20px;
+}
+.area-principal .container .texto-contador{
+    margin: 10px;
+}
+
+#currentNumber{
+    margin: 10px;
+}
+
+.adicionar{
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(243, 79, 79, 0.342);
+    cursor: pointer;
+    transition: .3s ease all;
+    color: white;
+    padding: 10px;
+}
+
+.subtrair{
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(243, 79, 79, 0.342);
+    cursor: pointer;
+    transition: .3s ease all;
+    color: white;
+    padding: 10px;
+}

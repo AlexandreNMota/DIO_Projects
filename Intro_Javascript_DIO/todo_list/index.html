@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <main>
+        <div class="todolist">
+            <div class="container">
+                <div class="todolist-header">
+                    <h2>Hi Alexandre</h2>
+                    <p>You have 0 incomplete tasks</p>
+                </div>
+                <div class="todolist-search-and-add">
+                    <div class="search">
+                        <input class="searchbar" type="text" placeholder="Search..">
+                        <button class="botao-search">search</button>
+                    </div>
+                    <div class="add-section" id="add-section">
+                        <button class="add-button" onclick="mypopup()"><i class="fa-solid fa-plus"></i></button>
+                        <div class="formdiv">
+                            <form action="/" method="post" id="tarefa-form">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="todolist-items">
+                    <hr>
+                    <ul class="lista-de-itens" id="lista-de-itens">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    
+    
+    
+    <script src="assets/js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/945067ef7d.js" crossorigin="anonymous"></script>
+</body>
+</html>
